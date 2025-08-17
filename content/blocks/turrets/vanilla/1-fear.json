@@ -2,11 +2,11 @@
   "type": "ItemTurret",
   "size": 8,
   "health": 866000,
-  "craftTime": 1,
+  "craftTime": 9,
   "maxAmmo": 20,
   "ammoPerShot": 2,
   "reload": 1,
-  "range": 400,
+  "range": 1000,
   "shootLength": 8,
   "consumes": {
     "power": 1,
@@ -28,13 +28,13 @@
   "ammoTypes": {
     "surge-alloy": {
       "type": "pointBulletType",
-      "damage": 6000,
+      "damage": 8000,
       "shootEffect": "instShoot",
       "status": "exogenesis-surge-charge",
       "statusDuration": 100,
       "lightning": 8,
       "lightningLength": 17,
-      "lightningDamage": 250,
+      "lightningDamage": 2500,
       "hitEffect": {
         "type": "multiEffect",
         "effects": [
