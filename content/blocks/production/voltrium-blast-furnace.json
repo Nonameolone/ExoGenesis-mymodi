@@ -71,7 +71,7 @@
 "liquidCapacity": 200,
 "hasItems": true,
 "itemCapacity": 40,
-"craftTime": 250,
+"craftTime": 25,
 "craftEffect": {
 "type": "multiEffect",
 "effects": [
