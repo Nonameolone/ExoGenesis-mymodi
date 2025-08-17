@@ -2,19 +2,20 @@
   "type": "LaserTurret",
   "size": 8,
   "unitSort": "strongest",
-  "health": 8660,
+  "health": 86600,
   "reload": 170,
+  "craftTime": 9,
   "range": 345,
   "shots": 1,
   "heatColor": "FFFFFFF",
   "targetAir": true,
   "targetGround": true,
   "shootCone": 40,
-  "coolantUsage": 0.5,
+  "coolantUsage": 0.1,
   "consumes": {
-    "power": 48,
+    "power": 4,
     "coolant": {
-      "amount": 1.5
+      "amount": 1
     }
   },
   "update": true,
@@ -22,7 +23,7 @@
   "shootEffect": "shootBigSmoke2",
   "shootShake": 6,
   "firingMoveFract": 0.5,
-  "shootDuration": 430,
+  "shootDuration": 43,
   "shootSound": "laserbig",
   "loopSound": "beam",
   "loopSoundVolume": 4.5,
@@ -35,7 +36,7 @@
     "width": 13,
     "oscScl": 2,
     "oscMag": 5,
-    "length": 350,
+    "length": 500,
     "status": "melting",
     "largeHit": true,
     "statusDuration": 1800,
@@ -52,7 +53,7 @@
       "colorFrom": "ffb98b",
       "colorTo": "ffb98b50"
     },
-    "drawSize": 500,
+    "drawSize": 5,
     "incendChance": 10,
     "pierce": true,
     "incendSpread": 7,
@@ -62,12 +63,12 @@
     "fragCone": 360
   },
   "requirements": [
-    "titanium/1600",
-    "surge-alloy/3000",
-    "voltirium-alloy/1500",
-    "copper/2300",
-    "silicon/1700",
-    "jupiteium/1300"
+    "titanium/160",
+    "surge-alloy/300",
+    "voltirium-alloy/150",
+    "copper/230",
+    "silicon/170",
+    "jupiteium/130"
   ],
   "category": "turret",
   "research": "1-breakthrough"
