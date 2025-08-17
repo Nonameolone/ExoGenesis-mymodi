@@ -1,16 +1,17 @@
 {
   "type": "ItemTurret",
   "size": 8,
-  "health": 8660,
+  "health": 866000,
+  "craftTime": 1,
   "maxAmmo": 20,
-  "ammoPerShot": 20,
-  "reload": 500,
-  "range": 1000,
+  "ammoPerShot": 2,
+  "reload": 1,
+  "range": 10000,
   "shootLength": 8,
   "consumes": {
-    "power": 70,
+    "power": 1,
     "coolant": {
-      "amount": 0.2
+      "amount": 0.1
     }
   },
   "ammoUseEffect": "casing3Double",
@@ -27,7 +28,7 @@
   "ammoTypes": {
     "surge-alloy": {
       "type": "pointBulletType",
-      "damage": 6000,
+      "damage": 600000,
       "shootEffect": "instShoot",
       "status": "exogenesis-surge-charge",
       "statusDuration": 100,
@@ -129,7 +130,7 @@
           }
         ]
       },
-      "speed": 1000,
+      "speed": 10000,
       "hitShake": 7,
       "trailSpacing": 30,
       "colorFrom": "F3E979FF",
@@ -151,7 +152,7 @@
     },
     "voltirium-alloy": {
       "type": "pointBulletType",
-      "damage": 10000,
+      "damage": 1000000,
       "shootEffect": {
         "type": "multiEffect",
         "effects": [
@@ -385,13 +386,13 @@
     }
   },
   "requirements": [
-    "titanium/1750",
-    "thorium/2400",
-    "voltirium-alloy/1500",
-    "plastanium/2650",
-    "copper/4950",
-    "surge-alloy/3000",
-    "silicon/2000"
+    "titanium/175",
+    "thorium/240",
+    "voltirium-alloy/150",
+    "plastanium/265",
+    "copper/495",
+    "surge-alloy/300",
+    "silicon/200"
   ],
   "category": "turret",
   "research": "foreshadow"
