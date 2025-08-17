@@ -3,19 +3,19 @@
   "size": 8,
   "unitSort": "strongest",
   "health": 86600,
-  "reload": 170,
+  "reload": 1,
   "craftTime": 9,
-  "range": 345,
-  "shots": 1,
+  "range": 500,
+  "shots": 10,
   "heatColor": "FFFFFFF",
   "targetAir": true,
   "targetGround": true,
   "shootCone": 40,
   "coolantUsage": 0.1,
   "consumes": {
-    "power": 4,
+    "power": 1,
     "coolant": {
-      "amount": 1
+      "amount": 0.5
     }
   },
   "update": true,
@@ -32,7 +32,7 @@
   "rotateSpeed": 2,
   "shootType": {
     "type": "ContinuousLaserBulletType",
-    "damage": 500,
+    "damage": 50000,
     "width": 13,
     "oscScl": 2,
     "oscMag": 5,
@@ -63,12 +63,12 @@
     "fragCone": 360
   },
   "requirements": [
-    "titanium/160",
-    "surge-alloy/300",
-    "voltirium-alloy/150",
-    "copper/230",
-    "silicon/170",
-    "jupiteium/130"
+    "titanium/16",
+    "surge-alloy/30",
+    "voltirium-alloy/15",
+    "copper/23",
+    "silicon/17",
+    "jupiteium/13"
   ],
   "category": "turret",
   "research": "1-breakthrough"
