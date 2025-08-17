@@ -1,0 +1,64 @@
+{
+  "type": "GenericCrafter",
+  "drawer": {
+    "type": "DrawSmelter",
+    "flameColor": "88a4ff"
+  },
+  "health": 360,
+  "liquidCapacity": 60,
+  "size": 3,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "itemCapacity": 60,
+  "craftTime": 20,
+  "craftEffect": "none",
+  "updateEffect": "hitMeltdown",
+  "consumes": {
+    "power": 2,
+    "items": {
+      "items": [
+        {
+          "item": "thorium",
+          "amount": 6
+        },
+        {
+          "item": "titanium",
+          "amount": 4
+        },
+        {
+          "item": "silicon",
+          "amount": 4
+        }
+      ]
+    },
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.2
+    }
+  },
+  "outputItem": {
+    "item": "jupiteium",
+    "amount": 10
+  },
+  "requirements": [
+    {
+      "item": "silicon",
+      "amount": 16
+    },
+    {
+      "item": "titanium",
+      "amount": 16
+    },
+    {
+      "item": "thorium",
+      "amount": 14
+    },
+    {
+      "item": "graphite",
+      "amount": 36
+    }
+  ],
+  "category": "crafting",
+  "research": "silicon-smelter"
+}

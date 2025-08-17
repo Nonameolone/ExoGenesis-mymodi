@@ -1,0 +1,42 @@
+{
+  "type": "GenericCrafter",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame",
+        "flameColor": "A9D8FFFF"
+      }
+    ]
+  },
+  "size": 3,
+  "researchCostMultiplier": 0.5,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 20,
+  "craftTime": 20,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 3,
+    "items": {
+      "items": [
+        "stellar-steel/1",
+        "lead/2"
+      ]
+    }
+  },
+  "requirements": [
+    "stellar-steel/10",
+    "astrolite/20",
+    "urbium/7",
+    "lead/20"
+  ],
+  "envRequired": 0,
+  "category": "crafting",
+  "research": "b-stellar-furnace",
+  "outputItem": "terrilium/10"
+}

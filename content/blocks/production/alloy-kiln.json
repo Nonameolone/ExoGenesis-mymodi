@@ -1,0 +1,40 @@
+{
+  "type": "GenericCrafter",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame"
+      }
+    ]
+  },
+  "size": 4,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 20,
+  "craftTime": 12,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 1,
+    "items": [
+      "silicon/6",
+      "titanium/6",
+      "copper/4",
+      "lead/4"
+    ]
+  },
+  "requirements": [
+    "surge-alloy/30",
+    "plastanium/23",
+    "titanium/32",
+    "silicon/23",
+    "lead/33"
+  ],
+  "category": "crafting",
+  "research": "alloy-smelter",
+  "outputItem": "surge-alloy/10"
+}
