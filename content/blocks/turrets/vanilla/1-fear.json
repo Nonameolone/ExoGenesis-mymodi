@@ -6,7 +6,7 @@
   "maxAmmo": 20,
   "ammoPerShot": 2,
   "reload": 1,
-  "range": 10000,
+  "range": 400,
   "shootLength": 8,
   "consumes": {
     "power": 1,
@@ -28,7 +28,7 @@
   "ammoTypes": {
     "surge-alloy": {
       "type": "pointBulletType",
-      "damage": 600000,
+      "damage": 6000,
       "shootEffect": "instShoot",
       "status": "exogenesis-surge-charge",
       "statusDuration": 100,
@@ -152,7 +152,7 @@
     },
     "voltirium-alloy": {
       "type": "pointBulletType",
-      "damage": 1000000,
+      "damage": 10000,
       "shootEffect": {
         "type": "multiEffect",
         "effects": [
