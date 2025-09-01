@@ -4,10 +4,10 @@
   "health": 866000,
   "craftTime": 9,
   "maxAmmo": 20,
-  "ammoPerShot": 2,
+  "ammoPerShot": 5,
   "reload": 1,
-  "range": 1000,
-  "shootLength": 8,
+  "range": 1350,
+  "shootLength": 12,
   "consumes": {
     "power": 1,
     "coolant": {
@@ -32,8 +32,8 @@
       "shootEffect": "instShoot",
       "status": "exogenesis-surge-charge",
       "statusDuration": 100,
-      "lightning": 8,
-      "lightningLength": 17,
+      "lightning": 80,
+      "lightningLength": 170,
       "lightningDamage": 2500,
       "hitEffect": {
         "type": "multiEffect",
